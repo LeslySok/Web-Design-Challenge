@@ -4,6 +4,8 @@
 
 Data is more powerful when we share it with others! Let's take what we've learned about HTML and CSS to create a dashboard showing off the analysis we've done.
 
+![](Images/landingResize.jpg)
+
 ## Latitude - Latitude Analysis Dashboard with Attitude
 
 Created a visualization dashboard website using visualizations we've created in a past assignment. Specifically, we'll be plotting [weather data](Resources/cities.csv).
