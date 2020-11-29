@@ -1,0 +1,121 @@
+#logo {
+    background: #4AA09B;
+    color: white;
+    text-align: center;
+    margin-left: -6px;
+    width: 6%;
+    padding: 15px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+/* body background styling, padding top = the aligning of summary header */
+body {
+    background: rgb(238, 238, 238);
+    padding-top: 125px;
+} 
+
+h2, h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4AA09B;
+    font-weight: bold;
+  }
+
+/* Summary header */
+h2 {
+    font-weight: bold;
+    font-size: 35px;
+    padding: 15px;  
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 28px;
+    padding-bottom: 05px;
+}
+
+/* image padding white for text  */
+.img-thumbnail{
+    padding: none;
+    border: none;
+    height: 240px;
+}
+
+/* fontstyling for summary paragraph*/
+p{
+   font-family: Arial, Helvetica, sans-serif;
+   color: rgb(116, 115, 115);
+   font-size: 18px;
+   font-weight: 500;
+   padding-top: 25px;
+
+}
+.col-md-12{
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom:25px;
+}
+
+.col-md-6{
+    background-color: white;
+    padding: 15px;
+    padding-bottom: 10px;   
+}
+
+/* image border styling*/
+.pic{
+    border: 3px solid rgb(81, 175, 160);
+}
+
+
+.navbar{
+    padding-top:0px;
+    padding-bottom: 0px;
+    padding-right:40px;
+}
+
+.nav-item.dropdown.show {
+    background-color: #ddd;
+    
+}
+
+.dropdown-menu {
+    margin: 0;
+
+}
+
+/* table text adjustments*/
+tr>th:nth-child(1),
+tr>th:nth-child(3),
+tr>th:nth-child(6),
+tr>th:nth-child(7),
+tr>th:nth-child(8),
+tr>th:nth-child(9),
+tr>th:nth-child(10),
+tr>td:nth-child(1),
+tr>td:nth-child(3),
+tr>td:nth-child(6),
+tr>td:nth-child(7),
+tr>td:nth-child(8),
+tr>td:nth-child(9),
+tr>td:nth-child(10) {
+    text-align: right;
+} 
+
+/* small screen adjustments*/
+@media(max-width:767px){
+    .navbar.bg-light{
+        background-color: #4AA09B !important;   
+        padding-top: 10px; 
+    }
+
+    .navbar-collapse{
+        background-color: #f8f9fa;
+        
+    }
+    .navbar{
+        padding:inherit;
+    }
+}
+
